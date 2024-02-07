@@ -4338,6 +4338,13 @@ textarea.form-control-lg {
   object-fit: cover; /* This property ensures the image covers the entire container */
 }
 
+.square-image-conv {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  object-fit: cover; /* This property ensures the image covers the entire container */
+}
+
+
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
