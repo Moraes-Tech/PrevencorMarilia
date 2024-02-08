@@ -4344,15 +4344,6 @@ textarea.form-control-lg {
   object-fit: cover; /* This property ensures the image covers the entire container */
 }
 
-
-.main{width: 50vw;height: auto;margin: auto;background-color: white;position: relative;top: 5vh;padding: 1vw;border-radius: 0vw}body{background-color: #000;font-family: 'Saira Semi Condensed', sans-serif}.circle{width: 8vw;height: 8vw}.head{font-size: 2vw;font-family: 'Saira Semi Condensed', sans-serif}.name{font-size: 1.3vw}.post{font-size: 1.5vw}.fa{color: #039be5}.row{padding-top: 1vw}@media only screen and (max-width: 425px){.main{width: 90vw;height: 300vw}.circle{width: 24vw;height: 24vw}.name{position: relative;top: 2vw;font-size: 5vw}.post{font-size: 6vw}.head{font-size: 8vw}}
-
-
-
-
-
-
-
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
