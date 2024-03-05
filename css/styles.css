@@ -3003,6 +3003,9 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #6c757d;
   --bs-gradient: none;
+  --bs-btn-margin: 0 5px;
+  --bs-flex: 1;
+  min-width: 200px !important;
 }
 
 .btn-outline-success {
