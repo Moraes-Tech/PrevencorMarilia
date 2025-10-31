@@ -310,5 +310,29 @@
 		<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+		<script>
+			window.chatwootSettings = {
+				position: 'right',
+				type: 'standard',
+				launcherTitle: 'Fale conosco no chat',
+			};
+			(function (d, t) {
+				var BASE_URL =
+					'https://agente-de-atendimento-chatwoot.djpqcj.easypanel.host';
+				var g = d.createElement(t),
+					s = d.getElementsByTagName(t)[0];
+				g.src = BASE_URL + '/packs/js/sdk.js';
+				g.defer = true;
+				g.async = true;
+				s.parentNode.insertBefore(g, s);
+				g.onload = function () {
+					window.chatwootSDK.run({
+						websiteToken: 'YVS81LZhkZ1dMnkFXfVXC9ap',
+						baseUrl: BASE_URL,
+					});
+				};
+			})(document, 'script');
+		</script>
 	</body>
 </html>
